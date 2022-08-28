@@ -1,0 +1,9 @@
+version: "3.9"
+   
+services:
+  service1:
+    build: 
+      dockerfile: service1.Dockerfile
+  service2:
+    build: 
+      dockerfile: service2.Dockerfile
